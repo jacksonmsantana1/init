@@ -6,7 +6,7 @@ var karma = require('karma').server;
  */
 gulp.task('test', function (done) {
     karma.start({
-        configFile: '/karma.conf.js',
+        configFile: 'karma.conf.js',
         singleRun: true
     }, done);
 });

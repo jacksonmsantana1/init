@@ -5,10 +5,6 @@ module.exports = function(config) {
 
     conf.files = conf.files.concat([
         //extra testing code
-
-
-        //test files
-        //'./test/unit/**/*.js'
     ]);
 
     config.set(conf);
